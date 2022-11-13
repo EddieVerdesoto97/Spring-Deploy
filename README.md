@@ -10,3 +10,4 @@ java.runtime.version=17
 3. Subir el proyecto a github desde intellij 
 4. Desde Heroku, crear app y elegir el Método Github y buscar el repositorio
 5. Habilitar deploy automatica y ejecutar el Deploy
+6. Revisar logs para verificar el funcionamiento
