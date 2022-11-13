@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController  //Trabajar con JSON, @Controller vistas en html
 public class HelloController {
 
-    @Value("${app.varexample}")
-    String message;
+    //@Value("${app.varexample}")
+    //String message;
     //Acceder a la url
     @GetMapping("/hola")
     public String holaMundo(){

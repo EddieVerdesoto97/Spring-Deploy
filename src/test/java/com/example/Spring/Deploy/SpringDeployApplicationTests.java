@@ -9,10 +9,6 @@ class SpringDeployApplicationTests {
 	@Test
 	void contextLoads() {
 
-		System.getenv().forEach(
-				(key,value) -> System.out.println(key + " " + value)
-		);
-
 		}
 }
 
