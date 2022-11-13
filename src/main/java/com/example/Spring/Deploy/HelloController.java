@@ -11,9 +11,8 @@ public class HelloController {
     String message;
     //Acceder a la url
     @GetMapping("/hola")
-
     public String holaMundo(){
-        return message;
+        return "Hola Mundo";
     }
     @GetMapping("/bootstrap")
     public String bootstrap(){
@@ -27,10 +26,10 @@ public class HelloController {
                 "    <!-- Bootstrap CSS -->\n" +
                 "    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.rtl.min.css\" integrity=\"sha384-7mQhpDl5nRA5nY9lr8F1st2NbIly/8WqhjTp+0oFxEA/QUuvlbF6M1KXezGBh3Nb\" crossorigin=\"anonymous\">\n" +
                 "\n" +
-                "    <title>مرحبًا بالعالم!</title>\n" +
+                "    <title>Deploy</title>\n" +
                 "  </head>\n" +
                 "  <body>\n" +
-                "    <h1>مرحبًا بالعالم!</h1>\n" +
+                "    <h1>Hola Mundo</h1>\n" +
                 "\n  <a class=\"btn btn-primary\" href=\"https://google.com\"> Google </a>" +
                 "    <!-- Optional JavaScript; choose one of the two! -->\n" +
                 "\n" +
